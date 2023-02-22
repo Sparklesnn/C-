@@ -7,7 +7,7 @@ int main(){
 	cout<<"請輸入第二數?";
 	cin>>B;
 	do{
-		C=A%B;
+		C=A%B;  //輾轉相除法
 		A=B;
 		B=C;
 	}
